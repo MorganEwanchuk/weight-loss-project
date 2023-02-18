@@ -7,7 +7,7 @@ Weight loss project app I am building to keep track of current weight, initial w
 
 bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mongodb, mongoose, morgan, nodemon, passport, passport-local, validator
 
-# Install all above dependencies and packages via terminall
+# Install all above dependencies and packages via terminal
 
 `npm install`
 
