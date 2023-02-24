@@ -2,7 +2,7 @@
 const mongoose = require('mongoose')
 
 const ProfileSchema = new mongoose.Schema({
-    startingWeight: {
+    initialWeight: {
         type: String, unique: true
     },
     weightLostPerWeek:{
@@ -11,6 +11,14 @@ const ProfileSchema = new mongoose.Schema({
     goalWeight: {
         type: String, unique: true
     },
+    user: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'User',
+    },
+    createdAt:{
+        type: Date,
+        default: Date.now
+    }
 })
 
 
