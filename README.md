@@ -18,9 +18,9 @@ bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mon
 2/18/2023: - Created ensureGuest middleware to redirect logged in users to main page.   
            - Added login view and routes  
            - Added logout function  
+2/23/2023: Created profile submission and model  
 
 # Next objective to do
 
 Add ensureAuth middleware to handle requests when not authenticated  
-Add a create profile button to add initial weight and goal weight.  
-
+Add function so each profile is unique to that user
