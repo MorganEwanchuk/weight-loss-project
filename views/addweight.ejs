@@ -9,6 +9,15 @@
 <body>
     <h1>Add a new weight here!</h1>
 
+
+    <h1>Create your profile!</h1>
+    <form action='/addweight/addprofile' method="POST">
+        <input type="number" name="initialWeight" placeholder="Inital Weight">
+        <input type="number" name="weightLostPerWeek" placeholder="Weight lost per week">
+        <input type="number" name="goalWeight" placeholder="Goal weight">
+        <input type="submit">
+    </form>
+
     <a href="/logout">Logout</a>
 </body>
 </html>
