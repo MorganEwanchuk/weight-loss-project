@@ -5,11 +5,13 @@ const authController = require('../controllers/auth')
 
 
 
-
+// Get main page after logged in
 router.get('/', weightController.renderAddWeight)
 
+// Route for handling the add profile request
 router.post('/addprofile', weightController.addProfile)
 
+// Route for the logout function
 router.get('/logout', authController.logout)
 
 
