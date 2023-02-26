@@ -19,7 +19,7 @@ bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mon
            - Added login view and routes  
            - Added logout function  
 2/23/2023: Created profile submission and model  
-
+2/26/2023: Added comments on the routes pages
 # Next objective to do
 
 Add ensureAuth middleware to handle requests when not authenticated  
